@@ -1,0 +1,87 @@
+{
+  "session": "20261019_154536_28151b",
+  "selected": "nn_v1",
+  "configs": {
+    "linear": {
+      "hidden": [],
+      "lr": 0.01,
+      "optimizer": "Adam",
+      "epochs": 500,
+      "loss": "MSE",
+      "batch_size": 64,
+      "best_epoch": 77,
+      "seed": 42
+    },
+    "nn_v1": {
+      "hidden": [
+        32
+      ],
+      "lr": 0.01,
+      "optimizer": "Adam",
+      "epochs": 300,
+      "loss": "MSE",
+      "batch_size": 64,
+      "best_epoch": 26,
+      "seed": 42
+    },
+    "nn_v2": {
+      "hidden": [
+        64,
+        32
+      ],
+      "lr": 0.01,
+      "optimizer": "Adam",
+      "epochs": 300,
+      "loss": "MSE",
+      "batch_size": 64,
+      "best_epoch": 18,
+      "seed": 42
+    },
+    "nn_v3_lr": {
+      "hidden": [
+        32
+      ],
+      "lr": 0.003,
+      "optimizer": "Adam",
+      "epochs": 300,
+      "loss": "MSE",
+      "batch_size": 64,
+      "best_epoch": 58,
+      "seed": 42
+    },
+    "nn_v4_sgd": {
+      "hidden": [
+        32
+      ],
+      "lr": 0.01,
+      "optimizer": "SGD",
+      "epochs": 300,
+      "loss": "MSE",
+      "batch_size": 64,
+      "best_epoch": 294,
+      "seed": 42
+    },
+    "nn_v5_epochs": {
+      "hidden": [
+        32
+      ],
+      "lr": 0.01,
+      "optimizer": "Adam",
+      "epochs": 600,
+      "loss": "MSE",
+      "batch_size": 64,
+      "best_epoch": 26,
+      "seed": 42
+    },
+    "linear_l1": {
+      "hidden": [],
+      "lr": 0.01,
+      "optimizer": "Adam",
+      "epochs": 500,
+      "loss": "L1",
+      "batch_size": 64,
+      "best_epoch": 280,
+      "seed": 42
+    }
+  }
+}
